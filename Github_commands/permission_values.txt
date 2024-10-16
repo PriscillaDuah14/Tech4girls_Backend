@@ -1,0 +1,5 @@
+the numeric values that represent read, write, and execute permissions are as follows:
+
+- Read (r): 4
+- Write (w): 2
+- Execute (x): 1
