@@ -1,0 +1,1 @@
+The home directory is like your personal space in a computer where you store your files, while the root directory is the top-level folder that contains all other directories and files in the system.
