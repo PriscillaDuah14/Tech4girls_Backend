@@ -1,0 +1,9 @@
+o modify the permissions of a file so that only the owner can read and write to it, while the group and others can only read it, you can use the chmod command in the terminal. The command you would use is:
+
+
+chmod 644 filename
+
+In this command:
+- 6 (which is 4 for read and 2 for write) gives the owner read and write permissions.
+- 4 gives the group read permission.
+- 4 gives others read permission.
