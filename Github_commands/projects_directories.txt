@@ -1,0 +1,11 @@
+To create the Backend_Projects directory in my home directory and then add ProjectA and ProjectB as subdirectories, I would use the following commands:
+
+1. Create the Backend_Projects directory:
+
+mkdir ~/Backend_Projects
+
+
+2. Create ProjectA and ProjectB subdirectories inside Backend_Projects:
+
+mkdir ~/Backend_Projects/ProjectA
+mkdir ~/Backend_Projects/ProjectB
