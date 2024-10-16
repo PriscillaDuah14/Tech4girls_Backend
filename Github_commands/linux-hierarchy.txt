@@ -1,0 +1,7 @@
+1. /bin: Contains essential command binaries (programs) that are needed for system booting and repairing.
+2. /boot: Holds files necessary for booting the system, including the kernel.
+3. /etc: Contains configuration files for the system and installed applications.
+4. /home: This is where user home directories are located.
+5. /lib: Contains shared libraries and kernel modules needed for the binaries in /bin and /sbin.
+6. /usr: Contains user-related programs and data, including applications and libraries.
+7. /var: Holds variable data files, such as logs and databases that are expected to grow in size.
