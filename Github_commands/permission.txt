@@ -1,0 +1,6 @@
+tring representation of the read file permission in Unix-like systems is denoted by the letter r. In the context of file permissions, it is part of a set of three characters that represent the permissions for the owner, group, and others. 
+
+For example, if a file has permissions set to rw-r--r--, it means:
+- The owner has read and write permissions (rw-).
+- The group has read permission only (r--).
+- Others also have read permission only (r--).
