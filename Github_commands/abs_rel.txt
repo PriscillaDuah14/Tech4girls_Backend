@@ -1,0 +1,3 @@
+An absolute path provides the complete address to a file or directory, starting from the root directory.
+
+On the other hand, a relative path specifies the location of a file or directory in relation to the current working directory.
