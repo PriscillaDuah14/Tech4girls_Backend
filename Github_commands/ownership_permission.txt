@@ -1,0 +1,9 @@
+### File Ownership
+Every file and directory in Linux has an owner and a group associated with it. The owner is typically the user who created the file, while the group can include multiple users. This ownership determines who has permissions to read, write, or execute the file.
+
+### File Modes
+File modes refer to the permissions assigned to files and directories. There are three types of permissions:
+
+1. Read (r): Allows the user to view the contents of the file or list the contents of a directory.
+2. Write (w): Permits the user to modify the contents of the file or add/remove files in a directory.
+3. Execute (x): Enables the user to run the file as a program or script. For directories, it allows the user to access files and directories within.
