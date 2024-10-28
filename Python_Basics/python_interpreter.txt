@@ -1,0 +1,10 @@
+ steps to open a python interpreter on my terminal;
+
+ 1. i opened the terminal on my system
+ 2. i typed python3 in the command line and pressed Enter to start the python interpreter
+ example
+
+ num1=8
+ num2=6
+ sum = num1 + num2 
+ print("the sum of" , num1, num2, "and", num2, "is",sum)
