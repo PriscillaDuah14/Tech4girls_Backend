@@ -33,3 +33,44 @@
    ⁠ python
    unique_numbers = {1, 2, 3, 3, 4}  # This will be {1, 2, 3, 4}
     ⁠
+ 1. ⁠upper(): This method converts all characters in a string to uppercase.
+   Example:
+   ⁠ python
+   text = "hello"
+   upper_text = text.upper()  # Result: "HELLO"
+    ⁠
+
+2.⁠ ⁠lower(): This method converts all characters in a string to lowercase.
+   Example:
+   ⁠ python
+   text = "HELLO"
+   lower_text = text.lower()  # Result: "hello"
+    ⁠
+
+3.⁠ ⁠replace(): This method replaces a specified substring with another substring.
+   Example:
+   ⁠ python
+   text = "I love apples"
+   new_text = text.replace("apples", "bananas")  # Result: "I love bananas"
+    ⁠
+
+4.⁠ ⁠split(): This method splits a string into a list based on a specified delimiter (default is whitespace).
+   Example:
+   ⁠ python
+   text = "Hello world"
+   split_text = text.split()  # Result: ["Hello", "world"]
+    ⁠
+
+5.⁠ ⁠join(): This method joins elements of a list into a single string, using a specified separator.
+   Example:
+   ⁠ python
+   words = ["Hello", "world"]
+   joined_text = " ".join(words)  # Result: "Hello world"
+    ⁠
+
+6.⁠ ⁠find(): This method searches for a specified substring and returns the index of its first occurrence. If not found, it returns -1.
+   Example:
+   ⁠ python
+   text = "Hello world"
+   index = text.find("world")  # Result: 6
+    ⁠
