@@ -1,0 +1,35 @@
+1.⁠ ⁠int: This data type represents integer values, which are whole numbers without a decimal point.
+   Example:
+   ⁠ python
+   age = 25
+    ⁠
+
+2.⁠ ⁠float: This represents floating-point numbers, which are numbers that contain a decimal point.
+   Example:
+   ⁠ python
+   temperature = 36.6
+    ⁠
+
+3.⁠ ⁠str: This data type is used for strings, which are sequences of characters enclosed in quotes.
+   Example:
+   ⁠ python
+   name = "Prissy"
+    ⁠
+
+4.⁠ ⁠list: A list is an ordered collection of items that can be changed (mutable). Lists can contain different data types.
+   Example:
+   ⁠ python
+   fruits = ["apple", "banana", "cherry"]
+    ⁠
+
+5.⁠ ⁠tuple: A tuple is similar to a list but is immutable, meaning its contents cannot be changed after creation.
+   Example:
+   ⁠ python
+   coordinates = (10, 20)
+    ⁠
+
+6.⁠ ⁠set: A set is an unordered collection of unique items. It automatically removes duplicate values.
+   Example:
+   ⁠ python
+   unique_numbers = {1, 2, 3, 3, 4}  # This will be {1, 2, 3, 4}
+    ⁠
