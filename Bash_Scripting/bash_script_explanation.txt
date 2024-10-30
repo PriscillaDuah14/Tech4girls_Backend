@@ -1,0 +1,35 @@
+A Bash script is a plain text file that contains a series of commands to be executed by the Bash shell. 
+It allows you to automate tasks, run multiple commands in sequence, and simplify complex operations. 
+Bash scripts can be used for system administration, file manipulation, program execution, and more.
+
+These are the steps to create a Bash script:
+
+1.⁠ ⁠Open your terminal.
+2.⁠ ⁠Use a text editor to create a new file. For example, you can use touch:
+   
+   touch script_name.sh
+   
+
+3.⁠ ⁠Start the script with a shebang line to specify the interpreter:
+   bash
+   #!/bin/bash
+   
+
+4.⁠ ⁠Add your commands below the shebang line. For example:
+   
+   echo "Hello, World!"
+   
+
+5.⁠ ⁠Save the file 
+
+6.⁠ ⁠Make the script executable with:
+   
+   chmod +x script_name.sh
+   
+
+7.⁠ ⁠Run the script with:
+   
+   ./script_name.sh
+   
+
+This will execute the commands in the script.
