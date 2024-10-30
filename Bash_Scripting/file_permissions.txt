@@ -1,0 +1,17 @@
+#this file explains -rw-r--r-- 1 userhacsa userhacsa 70 Oct 14 10:00 script.sh.  
+after running ls -l script.sh
+
+The output ⁠ -rw-r--r-- ⁠ from the command ⁠ ls -l script.sh ⁠ represents the file permissions and type for the file ⁠ script.sh ⁠. Here's what each part means:
+
+1.⁠ ⁠First character (⁠ - ⁠): This indicates the type of the file. A ⁠ - ⁠ means it's a regular file. If it were a ⁠ d ⁠, it would indicate a directory.
+
+2.⁠ ⁠Next three characters (⁠ rw- ⁠): These represent the owner's permissions. In this case, ⁠ r ⁠ means the owner can read the file, and ⁠ w ⁠ means the owner can write (modify) the file. The ⁠ - ⁠ indicates that the owner does not have execute permission.
+
+3.⁠ ⁠Next three characters (⁠ r-- ⁠): These represent the group's permissions. Here, ⁠ r ⁠ means that the group can read the file, while the ⁠ -- ⁠ means the group does not have write or execute permissions.
+
+4.⁠ ⁠Last three characters (⁠ r-- ⁠): These represent the permissions for others (everyone else). Similar to the group, ⁠ r ⁠ means others can read the file, and ⁠ -- ⁠ means they do not have write or execute permissions.
+
+So, in summary:
+•⁠  ⁠The owner can read and write the file.
+•⁠  ⁠The group can only read the file.
+•⁠  ⁠Others can also only read the file.
