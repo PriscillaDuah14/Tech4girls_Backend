@@ -6,4 +6,6 @@
 sudo apt update
 
 # Install the packages
-sudo apt install -y fortune cowsay cmatrix
+sudo apt install cowsay
+sudo apt install fortune
+sudo apt install cmatrix
