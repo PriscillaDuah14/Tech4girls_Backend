@@ -22,6 +22,4 @@ VALUES ('Priscilla', 'prissy55@gmail.com', '2024-11-01 10:30:00'),
 ('Emefa', 'emefa66@gmail.com', '2024-11-02 12:00:00'),
 ('Adjoa', 'adjoa444@gmail.com', '2024-11-03 14:15:00');
 
-
---DELETE FROM Users WHERE email = 
 SELECT * FROM Users;
