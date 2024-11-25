@@ -1,25 +1,33 @@
 -- Use the database
 USE Tech4Girls_DB;
 
+CREATE TABLE IF NOT EXISTS Users(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
 
--- Creating the Posts table with specified columns
-CREATE TABLE IF NOT EXISTS Posts (
-    user_id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,            
-    title VARCHAR(255) NOT NULL,
-    content TEXT NOT NULL,        
+CREATE TABLE IF NOT EXISTS Posts(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT,
+    title VARCHAR(255),
+    content TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (user_id) REFERENCES Users(id) 
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) 
 );
 
 SHOW TABLES;
 
--- Inserting sample data into the Posts table to create a one-to-many relationship
-
-INSERT INTO Posts (user_id, title, content, created_at) 
-VALUES ( 1,'My First Post', 'This is my lifestyle','2024-11-23 10:00:00'),  
-( 1,'My Second Post', 'This is my sql assignment content of my second post','2024-11-23 10:00:00'),
-( 3,'My daily Post', 'This is the content of my daily life post.','2024-11-23 10:00:00'),      
-( 4,'Last Post', 'This is the last post of journal .','2024-11-23 10:00:00');  
+INSERT INTO Posts (user_id, title, content) 
+VALUES
+(1, 'My First Post', 'This is the content of the first post.'),
+(1, 'Another Post', 'Here is another post from user 1.'),
+(2, 'A Post by User 2', 'Content of user  post.'),
+(3, 'User 3 Post', 'User 3 has posted this content.');
 
 SELECT * FROM Posts;
+
+
 
